@@ -1,0 +1,109 @@
+:root{
+    --Soft--red: hsl(10, 79%, 65%);
+    --Cyan: hsl(186, 34%, 60%);
+
+    --Dark-brown: hsl(25, 47%, 15%);
+    --Medium-brown: hsl(28, 10%, 53%);
+    --Cream: hsl(27, 66%, 92%);
+    --Very-pale-orange: hsl(33, 100%, 98%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--Cream);
+}
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.caixa-bank{
+    color: var(--Very-pale-orange);
+    background-color: var(--Soft--red);
+    border-radius: 25px;
+    width: 26vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.circulo img{
+    width: 70px;
+}
+.meu-banco{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.meu-banco p{
+    font-size: 15px;
+}
+.meu-banco span{
+    font-size: 30px;
+    font-weight: 700;
+}
+.segunda-caixa{
+    background-color: var(--Very-pale-orange);
+    border-radius: 25px;
+    width: 26vw;
+    height: 45vh;
+}
+.caixa-gastos h2{
+    font-size: 25px;
+    padding: 20px;
+}
+.gastos-dias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    height: 22vh;
+}
+.caixa-linha{
+    display: flex;
+    justify-content: center;
+}
+.linha{
+    width: 24vw;
+    height: 2px;
+    background-color: var(--Cream);
+}
+.gasto-mensal{
+    display: flex;
+    justify-content: space-around;
+}
+.caixa-filha{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.caixa-valor h1{
+    font-size: 35px;
+    display: flex;
+    align-items: flex-end;
+}
+.juros{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    height: 65px;
+}
+.juros p{
+    font-weight: 700;
+}
+.caixa-valor p{
+    color: var(--Medium-brown);
+}
+.juros span{
+    color: var(--Medium-brown);
+}
